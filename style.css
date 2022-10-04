@@ -9,10 +9,41 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-a, a:hover {
-    text-decoration: none;
-}
-
+/* HEADER */
 .container-fluid {
     padding: 0;
+}
+
+/* BANNIERE */
+.banner, .ban img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative; 
+}
+
+.inner-banner {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    color: rgb(255, 85, 0);
+    text-shadow: 1px, 1px, 20px, rgb(255, 85, 0);
+    font-size: 50px;
+}
+
+.inner-banner .btn-custom {
+    background-color: #3498DB;
+    color: white;
+}
+
+.inner-banner .btn-custom:hover {
+    background-color: rgb(255, 85, 0);
 }
