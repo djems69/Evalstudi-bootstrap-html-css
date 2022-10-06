@@ -64,3 +64,33 @@ body {
 .about article h2, p {
     text-align: center;
 }
+
+/* TEAM */
+.categorie {
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+#team {
+    text-align: center;
+    color: #3498DB;
+}
+
+.categorie .team {
+    height: 300px;  
+}
+
+/* FORMULAIRE */
+#contact {
+    color: #ffffff;
+    text-align: center; 
+}
+
+/* GALERIE PHOTO */
+#photo {
+    color: #3498DB;
+}
+
+#ins {
+    color: #3498DB;
+}
