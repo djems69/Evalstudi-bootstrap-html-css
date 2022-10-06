@@ -80,9 +80,15 @@ body {
     height: 300px;  
 }
 
-#img1 {
+.imgT {
     height: 190px;
     width: 190px;
+}
+
+/* FORMULAIRE */
+#contact {
+    color: #ffffff;
+    text-align: center; 
 }
 
 
