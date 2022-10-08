@@ -85,6 +85,12 @@ body {
     width: 190px;
 }
 
+/* CARD */
+#card {
+    justify-content: center;
+    padding: 5px;   
+}
+
 /* FORMULAIRE */
 #contact {
     color: #ffffff;
