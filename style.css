@@ -94,20 +94,20 @@ p {
 }
 
 /* FORMULAIRE */
-.contact form{
-  max-width: 70rem;
+.contact form {
+  max-width: 50rem;
   margin:1rem auto;
   text-align: center;
 }
 
-.contact form .inputBox{
+.contact form .inputBox {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .contact form .inputBox input,
-.contact form textarea{
+.contact form textarea {
   width: 100%;
   background:#333;
   border-radius: .5rem;
@@ -119,22 +119,27 @@ p {
 }
 
 .contact form .inputBox input::placeholder,
-.contact form textarea::placeholder{
+.contact form textarea::placeholder {
   color:#eee;
   text-transform: capitalize;
 }
 
 .contact form .inputBox input:focus,
-.contact form textarea:focus{
+.contact form textarea:focus {
   background:#444;
 }
 
-.contact form .inputBox input{
+.contact form .inputBox input {
   width: 49%;
 }
 
-.contact form textarea{
+.contact form textarea {
   resize: none;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
 }
 
 /* GALERIE PHOTO */
