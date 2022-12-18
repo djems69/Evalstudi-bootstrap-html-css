@@ -16,7 +16,7 @@ body {
 }
 
 /* BANNIERE */
-.banner,
+ .banner,
 .ban img {
   width: 100%;
   max-width: 100%;
@@ -30,7 +30,7 @@ body {
 
 .inner-banner {
   position: absolute;
-  top: 10%;
+  top: 40%;
   width: 100%;
   text-align: center;
 }
@@ -48,7 +48,7 @@ body {
 
 .inner-banner .btn-custom:hover {
   background-color: rgb(255, 85, 0);
-}
+} */
 
 /* A PROPOS */
 #about {
